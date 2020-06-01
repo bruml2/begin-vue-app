@@ -6,7 +6,7 @@ exports.handler = async function http (req) {
       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0'
     },
     body: JSON.stringify({
-      message: "Hello from Ruml's Begin API!"
+      message: 'Hello from Rumls Begin API!'
     })
   }
 }

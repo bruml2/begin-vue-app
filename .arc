@@ -6,6 +6,8 @@ folder dist
 
 @http
 get /api
+get /foo
+put /bar
 
 @tables
 data

@@ -21,7 +21,9 @@ export default {
   methods:  {
     getData: async function () {
       try {
+        console.log('in getData')
         let data = await (await fetch('api')).json()
+        console.log('have data')
         this.message = data.message
       } catch (err) {
         this.message = err.message
